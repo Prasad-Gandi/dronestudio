@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drone Vision Studio</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+        }
+
+        header {
+            background: #000;
+            color: #fff;
+            padding: 15px 0;
+            position: sticky;
+            top: 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .hero {
+            background: url('images/bg.png') no-repeat center center/cover;
+            height: 90vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 50px;
+        }
+
+        .btn {
+            padding: 12px 20px;
+            background: #ff6600;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            margin-top: 15px;
+        }
+
+        section {
+            padding: 40px;
+            text-align: center;
+        }
+
+        .services {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            width: 250px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 10px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .contact {
+            background: #222;
+            color: white;
+        }
+
+        footer {
+            background: #000;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="home" class="hero">
+    <div>
+        <h1>Drone Photography & Videography</h1>
+        <p>Capturing Stunning Aerial Moments</p>
+        <a href="#contact"><button class="btn">Contact Us</button></a>
+    </div>
+</section>
+
+<section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+        <div class="card">
+            <h3>Drone Photography</h3>
+            <p>High-quality aerial photos for events, real estate, and more.</p>
+        </div>
+        <div class="card">
+            <h3>Drone Videography</h3>
+            <p>Cinematic videos for weddings, promotions, and projects.</p>
+        </div>
+        <div class="card">
+            <h3>Custom Projects</h3>
+            <p>Tailored drone solutions based on your requirements.</p>
+        </div>
+    </div>
+</section>
+
+<section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery">
+        <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee">
+        <img src="https://images.unsplash.com/photo-1495567720989-cebdbdd97913">
+        <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e">
+        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e">
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact Us</h2>
+
+    <p>📞 <strong>9059090091</strong></p>
+    <p>📧 <strong>gangalovaprasad@gmail.com</strong></p>
+
+    <p style="margin-top:20px;">
+        Reach out to us for bookings and enquiries. We respond quickly!
+    </p>
+
+    <a href="tel:9059090091">
+        <button class="btn">Call Now</button>
+    </a>
+</section>
+
+<footer>
+    <p>© 2026 Droneography.in | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
