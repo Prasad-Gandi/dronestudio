@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="g4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7c2d12"/>
+      <stop offset="100%" stop-color="#fb923c"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#g4)"/>
+  <rect x="150" y="160" width="900" height="480" rx="36" fill="#fff7ed" opacity="0.15"/>
+  <path d="M80 640 C240 560, 360 520, 520 560 S840 650, 1120 575" stroke="#fde68a" stroke-width="18" fill="none" stroke-linecap="round"/>
+  <circle cx="900" cy="240" r="110" fill="#fde68a" opacity="0.95"/>
+  <path d="M220 650 L420 340 L600 650 Z" fill="#ffedd5" opacity="0.95"/>
+  <path d="M520 650 L760 250 L1000 650 Z" fill="#fdba74" opacity="0.92"/>
+  <rect x="90" y="625" width="300" height="120" rx="16" fill="#431407" opacity="0.78"/>
+  <text x="120" y="693" fill="#fff" font-size="38" font-family="Arial, sans-serif">Golden Hour</text>
+</svg>

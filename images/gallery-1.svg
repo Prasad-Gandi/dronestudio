@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f4c81"/>
+      <stop offset="100%" stop-color="#7dd3fc"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#g1)"/>
+  <rect y="560" width="1200" height="240" fill="#214b26"/>
+  <path d="M0 610 C220 520, 360 500, 560 560 S960 660, 1200 570 L1200 800 L0 800 Z" fill="#2f6b35"/>
+  <circle cx="900" cy="250" r="120" fill="#ffd166" opacity="0.95"/>
+  <path d="M180 560 L340 360 L500 560 Z" fill="#fef3c7" opacity="0.9"/>
+  <rect x="70" y="610" width="220" height="120" rx="18" fill="#0f172a" opacity="0.75"/>
+  <text x="95" y="670" fill="#fff" font-size="38" font-family="Arial, sans-serif">Aerial Coast</text>
+</svg>

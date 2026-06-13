@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="g3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14532d"/>
+      <stop offset="100%" stop-color="#86efac"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#g3)"/>
+  <path d="M0 560 C120 500, 200 470, 320 500 S560 620, 760 560 S1040 450, 1200 500 L1200 800 L0 800 Z" fill="#166534"/>
+  <path d="M180 610 L400 300 L640 610 Z" fill="#fef3c7" opacity="0.96"/>
+  <path d="M460 610 L700 220 L920 610 Z" fill="#ecfccb" opacity="0.9"/>
+  <circle cx="960" cy="220" r="100" fill="#fde68a" opacity="0.95"/>
+  <rect x="70" y="620" width="320" height="120" rx="16" fill="#052e16" opacity="0.75"/>
+  <text x="100" y="688" fill="#fff" font-size="38" font-family="Arial, sans-serif">Green Valley</text>
+</svg>
