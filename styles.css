@@ -128,12 +128,12 @@ section{padding:64px 20px;min-height:100vh;display:flex;flex-direction:column;ju
 #gallery{min-height:100vh}
 #contact{min-height:100vh}
 h2{margin:0 0 18px;font-size:32px}
-.services{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:22px;align-items:stretch}
-.card{background:#fff;padding:28px 22px;border-radius:20px;min-width:0;width:100%;box-shadow:0 14px 40px rgba(16,24,40,0.08);border:1px solid rgba(15,23,42,0.04)}
+.services{display:grid;grid-template-columns:repeat(4,minmax(220px,1fr));gap:18px;align-items:stretch;max-width:1120px;width:100%}
+.card{background:#fff;padding:22px 16px;border-radius:20px;min-width:0;width:100%;box-shadow:0 14px 40px rgba(16,24,40,0.08);border:1px solid rgba(15,23,42,0.04)}
 .icon-box{width:60px;height:60px;border-radius:16px;background:rgba(255,102,0,0.12);display:flex;align-items:center;justify-content:center;margin-bottom:18px}
 .card svg{width:30px;height:30px}
 .card h3{margin:0 0 10px;font-size:20px}
-.card p{color:var(--muted);font-size:15px;line-height:1.7}
+.card p{color:var(--muted);font-size:14px;line-height:1.7}
 
 .gallery{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
 .gallery img{width:100%;height:240px;object-fit:cover;border-radius:18px;aspect-ratio:16/9}
@@ -158,7 +158,7 @@ footer{background:#fff;border-top:1px solid #eee;padding:18px 0;text-align:cente
 .quick-actions a[data-action="mail"] svg{transform:scale(1.05)}
 
 /* Responsive */
-@media (max-width:960px){
+@media (max-width:900px){
   .services{grid-template-columns:repeat(2,minmax(0,1fr));}
 }
 
